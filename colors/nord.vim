@@ -20,7 +20,10 @@ let s:nord0_gui = "#2E3440"
 let s:nord1_gui = "#3B4252"
 let s:nord2_gui = "#434C5E"
 let s:nord3_gui = "#4C566A"
-let s:nord3_gui_bright = "#616E88"
+let s:nord3_gui_bright_10 = "#616E88"
+let s:nord3_gui_bright_15 = "#6D7A96"
+let s:nord3_gui_bright_20 = "#7B88A1"
+let s:nord3_gui_bright_25 = "#8A95AB"
 let s:nord4_gui = "#D8DEE9"
 let s:nord5_gui = "#E5E9F0"
 let s:nord6_gui = "#ECEFF4"
@@ -255,7 +258,7 @@ call s:hi("VertSplit", s:nord2_gui, s:nord1_gui, s:nord3_term, s:nord1_term, "NO
 "+----------------------+
 call s:hi("Boolean", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Character", s:nord14_gui, "", s:nord14_term, "", "", "")
-call s:hi("Comment", s:nord3_gui_bright, "", s:nord3_term, "", s:italicize_comments, "")
+call s:hi("Comment", s:nord3_gui_bright_15, "", s:nord3_term, "", s:italicize_comments, "")
 call s:hi("Conditional", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Constant", s:nord4_gui, "", "NONE", "", "", "")
 call s:hi("Define", s:nord9_gui, "", s:nord9_term, "", "", "")

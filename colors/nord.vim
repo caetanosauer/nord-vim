@@ -38,7 +38,7 @@ let s:nord14_gui = "#A3BE8C"
 let s:nord15_gui = "#B48EAD"
 
 " Pick brightness here
-let s:nord3_gui_bright = s:nord3_gui_bright_15;
+let s:nord3_gui_bright = s:nord3_gui_bright_15
 
 let s:nord1_term = "0"
 let s:nord3_term = "8"
